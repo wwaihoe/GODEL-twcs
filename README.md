@@ -95,7 +95,7 @@ GODEL: If you are located in California, you do not have to have a Verizon Wirel
 - Quality and quantity of training data needs to be improved significantly to achieve good responses with the chat model.
 
 ## Flask App
-Created a web app using Flask for a demonstration of the fine-tuned chat models.\
+Created a web app using Flask for a demonstration of the fine-tuned chat models.
 
 ![image](https://github.com/wwaihoe/GODEL-twcs/assets/91514179/b6dfe720-37ba-4907-be67-4c37fdf1dd89)
 
