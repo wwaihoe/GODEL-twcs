@@ -4,8 +4,7 @@
 
 Data used for fine-tuning was an open source dataset containing conversations on Twitter between customers and customer support accounts. ([Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter))
 
-Fine-tuned models were uploaded on HuggingFace.\
-**Download Links**
+Fine-tuned models were uploaded on HuggingFace.
 | Model      | HuggingFace Model name |
 | ----------- | ----------- |
 | General      | [wwaihoe/GODEL_twcs](https://huggingface.co/wwaihoe/GODEL_twcs)       |
