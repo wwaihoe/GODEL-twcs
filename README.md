@@ -4,8 +4,8 @@
 
 Data used for fine-tuning was an open source dataset containing conversations on Twitter between customers and customer support accounts. ([Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter))
 
-### Documentation 
-##### Data Preprocessing
+## Documentation 
+### Data Preprocessing
 Conducted data preprocessing to ensure data is in the right format to be input into the model for training and ensure that text data is cleaned.
 - Checked for missing values in text column
 - Merge query tweets and response tweets using tweet id (Data with up to 20 lines of dialog)
@@ -16,7 +16,7 @@ Conducted data preprocessing to ensure data is in the right format to be input i
   - Removed names of customer support staff at the end of some tweets
 Removed responses which ask the customer to send a DM as they do not provide useful help for customers
 
-##### Fine-tuning GODEL model
+### Fine-tuning GODEL model
 Built pipeline for model training by referencing documentation on Hugging Face transformers and GODEL. 
 Basic outline:
 1. Load model and tokenizer of pretrained model: "microsoft/GODEL-v1_1-large-seq2seq".
@@ -25,11 +25,11 @@ Basic outline:
 4. Trained the model using Trainer class.
 
 Using the same pipeline, 3 models were trained and tested: 
-Tweets to and from all tech-related companies identified earlier
-Tweets to and from AppleSupport
-Tweets to and from SpotifyCares
+- Tweets to and from all tech-related companies identified earlier
+- Tweets to and from AppleSupport
+- Tweets to and from SpotifyCares
 
-##### Evaluation
+#### Evaluation
 Used ROUGE-L to evaluate the performance of the models. ROUGE-L scores the outputs of the chat model based on the length of the longest common subsequence present in the generated output and the reference response. 
 | Model      | ROUGE-L |
 | ----------- | ----------- |
@@ -37,7 +37,7 @@ Used ROUGE-L to evaluate the performance of the models. ROUGE-L scores the outpu
 | AppleSupport   | 0.658        |
 | SpotifyCares   | 0.725        |
 
-###### Sample outputs:
+##### Sample outputs:
 A.
 User input: the camera on my iPhone does not work
 GODEL: We want to help you with your camera. What exactly is not working with your camera?
@@ -80,7 +80,7 @@ GODEL: What state are you located? Do you have a Verizon Wireless account?
 User input: I am located in California and do have a Verizon wireless account
 GODEL: If you are located in California, you do not have to have a Verizon Wireless account to use our services.
 
-###### Key Findings
+##### Key Findings
 - Found the specific model to be more effective at providing relevant responses. The general model can get confused about the context (e.g. the product, service or company), especially when the query is vague. This is evident in the higher ROUGE-L scores.
 - Chatbot is able to provide specific and helpful responses, showing the strong ability of the model to adapt to a new context.
 - Chatbot gets confused about the context sometimes (see D. & F. of sample outputs)
