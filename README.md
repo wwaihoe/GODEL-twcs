@@ -103,7 +103,7 @@ Created a web app using Flask for a demonstration of the fine-tuned chat models.
 UI was created with BootStrap.\
 Local database to store chat logs was implemented using SQLite.
 
-### Running app
+### Running the app
 Download the fine-tuned models into the Flask App directory and run the command `flask init-db` from the Flask App directory to initialise the SQL database. Then, use the command `flask run` to start the app.
 
 
