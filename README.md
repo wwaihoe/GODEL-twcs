@@ -7,7 +7,7 @@ Data used for fine-tuning was an open source dataset containing conversations on
 Fine-tuned models were uploaded on HuggingFace.\
 **Download Links**
 | Model      | HuggingFace Model name |
-| ----------- | ----------- | ----------- |
+| ----------- | ----------- |
 | General      | [wwaihoe/GODEL_twcs](https://huggingface.co/wwaihoe/GODEL_twcs)       |
 | AppleSupport   | [wwaihoe/GODEL_twcs_AppleSupport](https://huggingface.co/wwaihoe/GODEL_twcs_AppleSupport)        |
 | SpotifyCares   | [wwaihoe/GODEL_twcs_SpotifyCares](https://huggingface.co/wwaihoe/GODEL_twcs_SpotifyCares)        |
