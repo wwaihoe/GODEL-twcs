@@ -92,6 +92,7 @@ GODEL: If you are located in California, you do not have to have a Verizon Wirel
 - Chatbot is able to provide specific and helpful responses, showing the strong ability of the model to adapt to a new context.
 - Chatbot gets confused about the context sometimes (see D. & F. of sample outputs)
 - Responses can be improved to provide more useful help with a larger set of training data with more helpful responses that provide specific steps for users to troubleshoot.
+  - Provide troubleshooting steps instead of solely links to articles (links may become outdated over time, see A., C. & E. of sample outputs.)
 - Quality and quantity of training data needs to be improved significantly to achieve good responses with the chat model.
 
 ## Flask App
