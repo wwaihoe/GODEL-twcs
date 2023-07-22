@@ -37,7 +37,7 @@ Used ROUGE-L to evaluate the performance of the models. ROUGE-L scores the outpu
 | AppleSupport   | 0.658        |
 | SpotifyCares   | 0.725        |
 
-**Sample outputs:**
+**Sample outputs:**\
 **A.**\
 User input: the camera on my iPhone does not work\
 GODEL: We want to help you with your camera. What exactly is not working with your camera?\
@@ -86,5 +86,12 @@ GODEL: If you are located in California, you do not have to have a Verizon Wirel
 - Chatbot gets confused about the context sometimes (see D. & F. of sample outputs)
 - Responses can be improved to provide more useful help with a larger set of training data with more helpful responses that provide specific steps for users to troubleshoot.
 - Quality and quantity of training data needs to be improved significantly to achieve good responses with the chat model.
+
+## Flask App
+Created a web app using Flask for a demonstration of the fine-tuned chat models.\
+![image](https://github.com/wwaihoe/GODEL-twcs/assets/91514179/b6dfe720-37ba-4907-be67-4c37fdf1dd89)
+
+UI was created with BootStrap.\
+Local database to store chat logs was implemented using SQLite.\
 
 
