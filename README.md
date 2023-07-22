@@ -4,6 +4,14 @@
 
 Data used for fine-tuning was an open source dataset containing conversations on Twitter between customers and customer support accounts. ([Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter))
 
+Fine-tuned models were uploaded on HuggingFace.\
+**Download Links**
+| Model      | HuggingFace Model name |
+| ----------- | ----------- | ----------- |
+| General      | [wwaihoe/GODEL_twcs](https://huggingface.co/wwaihoe/GODEL_twcs)       |
+| AppleSupport   | [wwaihoe/GODEL_twcs_AppleSupport](https://huggingface.co/wwaihoe/GODEL_twcs_AppleSupport)        |
+| SpotifyCares   | [wwaihoe/GODEL_twcs_SpotifyCares](https://huggingface.co/wwaihoe/GODEL_twcs_SpotifyCares)        |
+
 ## Fine-tuning Documentation 
 ### Data Preprocessing
 Conducted data preprocessing to ensure data is in the right format to be input into the model for training and ensure that text data is cleaned.
