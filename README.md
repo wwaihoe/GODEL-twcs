@@ -37,7 +37,7 @@ Used ROUGE-L to evaluate the performance of the models. ROUGE-L scores the outpu
 | AppleSupport   | 0.658        |
 | SpotifyCares   | 0.725        |
 
-##### Sample outputs:
+**Sample outputs:**
 **A.**\
 User input: the camera on my iPhone does not work\
 GODEL: We want to help you with your camera. What exactly is not working with your camera?\
@@ -80,11 +80,11 @@ GODEL: What state are you located? Do you have a Verizon Wireless account?\
 User input: I am located in California and do have a Verizon wireless account\
 GODEL: If you are located in California, you do not have to have a Verizon Wireless account to use our services.
 
-##### Key Findings
+**Key Findings**
 - Found the specific model to be more effective at providing relevant responses. The general model can get confused about the context (e.g. the product, service or company), especially when the query is vague. This is evident in the higher ROUGE-L scores.
 - Chatbot is able to provide specific and helpful responses, showing the strong ability of the model to adapt to a new context.
 - Chatbot gets confused about the context sometimes (see D. & F. of sample outputs)
 - Responses can be improved to provide more useful help with a larger set of training data with more helpful responses that provide specific steps for users to troubleshoot.
-- Quality and quantity of training data is extremely important.
+- Quality and quantity of training data needs to be improved significantly to achieve good responses with the chat model.
 
 
